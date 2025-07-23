@@ -1,0 +1,111 @@
+
+
+@font-face {
+  font-family: "komikax";
+  src: url("assets/komika_axis/KOMIKAX_.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: #fef6e4;
+  font-size: 14px;
+}
+
+body {
+  background-color: #fef6e4;
+  /*background-color: #8bd3dd;*/
+  width: 100vw;
+}
+
+p{
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  /*background-color: #8bd3dd;*/
+  border: 2px dashed #f582ae;
+  width: 400px;
+  height: 1000px;
+  margin: 50px auto;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(141, 102, 102, 0.75)), url("assets/y-so-serious.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.name {
+  background-color: black;
+  color: white;
+  border: 5px solid green;
+  font-family: Times, serif;
+}
+
+.hex {
+  background-color: #172c66;
+  color: #fef6e4;;
+  border: 5px solid #f582ae;
+  font-family: cursive;
+}
+
+.rgb {
+  background-color: rgb(1, 17, 38);
+  color: rgb(242, 242, 242);
+  border: 5px solid rgb(64, 115, 68);
+  font-size: 40px;
+  font-family: "komikax", sans-serif;
+}
+
+.hsl {
+  background-color: hsl(0, 60%, 34%);
+  /*color: hsl(0, 0%, 95%);*/
+  color:hsla(0, 12%, 47%, 0.8); /*4th commit*/
+  border: 5px solid hsl(0, 87%, 59%);
+  font-family: 'Silkscreen', cursive;
+}
+
+.hue1 {
+  background-color: hsl(60, 60%, 34%);
+}
+
+.hue2 {
+  background-color: hsl(240, 60%, 34%);
+}
+
+.sat1 {
+  background-color: hsl(0, 100%, 34%);
+}
+
+.sat2 {
+  background-color: hsl(0, 50%, 34%);
+}
+
+.sat3 {
+  background-color: hsl(0, 0%, 34%);
+}
+
+.light1{
+  background-color: hsl(0, 60%, 0%);
+}
+
+.light2{
+  background-color: hsl(0, 60%, 50%);
+}
+
+.light3{
+  background-color: hsl(0, 60%, 100%)
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.row p{
+ display: inline-block;
+}
